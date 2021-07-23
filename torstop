@@ -1,0 +1,11 @@
+#!/bin/bash
+b='\033[34;1m' #blue
+g='\033[32;1m' #g3en
+p='\033[35;1m' #purple
+c='\033[36;1m' #cyan
+r='\033[31;1m' #red
+w='\033[37;1m' #white
+y='\033[33;1m' #yellow
+o='\033[1;38;5;208m' #Orange
+sv down tor
+echo $r" [*] Tor Stopped."
