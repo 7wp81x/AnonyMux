@@ -1,0 +1,28 @@
+#!/bin/bash
+b='\033[34;1m' #blue
+g='\033[32;1m' #g3en
+p='\033[35;1m' #purple
+c='\033[36;1m' #cyan
+r='\033[31;1m' #red
+w='\033[37;1m' #white
+y='\033[33;1m' #yellow
+o='\033[1;38;5;208m' #Orange
+printf $r
+echo
+echo """     ___                            __  ___"""
+echo """    /   |  ____  ____  ____  __  __/  |/  /_  ___  __"""
+echo """   / /| | / __ \/ __ \/ __ \/ / / / /|_/ / / / / |/_/"""
+echo """  / ___ |/ / / / /_/ / / / / /_/ / /  / / /_/ />  <"""
+echo """ /_/  |_/_/ /_/\____/_/ /_/\__, /_/  /_/\__,_/_/|_|"""
+echo """                          /____/ Coded by Mr.p1r4t3"""
+echo
+echo $g" [*] Starting Tor..."
+sv up tor
+sleep 10
+echo $g" [*] Setting up proxychain..."
+sleep 3
+echo $g" [*] Only this session will be anonymize"
+echo
+sleep 5
+clear
+proxychains4 -q bash
