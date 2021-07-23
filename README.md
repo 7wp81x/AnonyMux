@@ -1,11 +1,9 @@
-# AnonyMux ![]
+# AnonyMux
 
 Anonymux is a simple bashscript that uses tor & proxychains-ng to anonymize your termux terminal
 
 ## Installation
 ----
-
-## Installation
 1. `git clone https://github.com/Mrp1r4t3/AnonyMux.git`
 2. `cd AnonyMux`
 3. `sh anonynux.sh`
